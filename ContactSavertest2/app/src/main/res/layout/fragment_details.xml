@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.DetailsFragment">
+
+
+
+        <TextView
+            android:id="@+id/textViewFName"
+            android:textAlignment="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name" />
+
+
+    <TextView
+        android:id="@+id/textViewLName"
+        android:textAlignment="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name" />
+
+    <TextView
+        android:id="@+id/textViewDegree"
+        android:textAlignment="center"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Degree" />
+
+    <TextView
+        android:id="@+id/textViewCountry"
+        android:textAlignment="center"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country" />
+
+    <TextView
+        android:id="@+id/textViewPhnumber"
+        android:textAlignment="center"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number" />
+    <TextView
+        android:id="@+id/textViewYear"
+        android:textAlignment="center"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year" />
+
+    <TextView
+        android:id="@+id/textViewSemester"
+        android:textAlignment="center"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester" />
+
+    <Spinner
+
+        android:id="@+id/FNamespinner"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="150dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+
+        android:id="@+id/LNamespinner"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="150dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+    <Spinner
+
+        android:id="@+id/Degreespinner"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="150dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+    <Spinner
+
+        android:id="@+id/Countryspinner"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="150dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+
+        android:id="@+id/Numberspinner"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="150dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+
+        android:id="@+id/Yearspinner"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="150dp"
+        android:layout_width="150dp"
+
+        android:layout_height="wrap_content" />
+    <Spinner
+
+        android:id="@+id/Semesterspinner"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="150dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="100dp">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name_Degree_Country_S23" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name_Country_Degree_S23" />
+    </RadioGroup>
+
+
+</FrameLayout>

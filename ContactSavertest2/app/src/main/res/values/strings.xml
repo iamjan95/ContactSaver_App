@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Contact Saver</string>
+    <string name="tab_text_1">Details</string>
+    <string name="tab_text_2">Memory</string>
+</resources>
